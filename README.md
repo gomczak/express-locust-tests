@@ -8,6 +8,13 @@ A simple REST API with the following endpoints:
 | PUT    | /api/users/:id | Update an existing user |
 | DELETE | /api/users/:id | Delete a user |
 
+## Environment Setup
+Create a `.env` file in the app directory:
+```bash
+# .env
+PORT=3000
+```
+
 You can test these endpoints using tools like Postman or curl. 
 Here are some example requests:
 
